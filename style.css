@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    background: #4b0082; /* Purple */
+    color: #ffd700; /* Gold */
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffd700 3px solid; /* Gold */
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+}
+
+/* Section Styling */
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section#about {
+    background: #e6e6fa; /* Lavender */
+}
+
+section h2 {
+    text-align: center;
+    color: #4b0082; /* Purple */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    margin: 0 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #ffd700; /* Gold */
+    color: #4b0082; /* Purple */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Footer Styling */
+footer {
+    background: #4b0082; /* Purple */
+    color: #ffd700; /* Gold */
+    text-align: center;
+    padding: 10px 0;
+    border-top: #ffd700 3px solid; /* Gold */
+    font-size: 16px;
+}
+
+/* Additional Styling for a Nicer Look */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background: #fafafa; /* Light Background */
+}
+
+p {
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
